@@ -6,7 +6,7 @@ The current development only consider the ECG and GSR signals.
 
 The applications include tools for post processing the data.
 
-Main features
+### Main features ###
 * Serial port reading
 * Fast Fourier Transform (FFT) and Low Pass filters in real time
 * CSV data generation
