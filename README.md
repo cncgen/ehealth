@@ -163,6 +163,7 @@ Usage: python ./tools/fft_process.py [input_file] [output_file] [cut_frequency]
 
 
 Where
+
    input_file:    Input data file in CSV format
 
    output_file:   Output data file in CSV format
