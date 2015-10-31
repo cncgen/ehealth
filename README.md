@@ -150,7 +150,7 @@ To execute the examples use
 ![ecg_noise_filter_example.png](https://bitbucket.org/repo/LLq89d/images/3670828227-ecg_noise_filter_example.png)
 
 
-## Noise Filter Process ##
+### Noise Filter Process ###
 
 The program fft_process.py  allow to process a signal applying the low-pass filter. 
 
