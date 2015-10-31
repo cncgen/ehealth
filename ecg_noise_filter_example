@@ -1,0 +1,1 @@
+python ./tools/fft_graph.py ./data/sample_fft.csv 1 120

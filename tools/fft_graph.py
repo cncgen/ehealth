@@ -9,8 +9,8 @@
 # 
 # @param input_file The file to be analysed
 # @param data The data column from the file
-# @param data The number of samples to be analysed
 # @param cut_frequency Frequency to apply the low-pass filter
+# @param data The number of samples to be analysed
 #
 # @note Data must be in CSV file in format: time,ecg,gsr
 
@@ -19,18 +19,22 @@ import csv
 import numpy, scipy, pylab, random  
 import re
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 4 and len(sys.argv) != 5:
 	print "Graph data and apply the FFT and Low-Pass filter\n"
-	print "Usage: python " + sys.argv[0] + " [input_file] [data] [cut_frequency]\n"
+	print "Usage: python " + sys.argv[0] + " [input_file] [data] [cut_frequency] [samples]\n"
 	print ("Where\n   input_file:    Input data in CSV format\n" +
 		"   data:          Data column to be analyzed\n" +
-		"   cut_frequency: Cut frequency for low-pass filter\n")
+		"   cut_frequency: Cut frequency for low-pass filter\n"
+		"   samples:        Number of samples to be analysed (default = 4000)\n")
 	print "Example: python " + sys.argv[0] + " ../data/sample.csv 1 110\n"
 	exit(1)
 
 
-# Buffer size
-size = 300000
+# Default buffer size or sample parameter 
+if len(sys.argv) == 5:
+	size = int(sys.argv[4])
+else:
+	size = 4000
 
 signal=numpy.arange(0,size/100 + .01,.01)
 
