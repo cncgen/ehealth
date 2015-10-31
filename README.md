@@ -49,10 +49,12 @@ sudo apt-get install pyqt4-dev-tools qt4-designer
 
 ### Mac OS X Installation ###
 * Install [Anaconda Scientific Python Distribution](https://store.continuum.io/cshop/anaconda/) that comes with all the libraries
-* You probably needs to install missing libraries with
+* You probably need to install missing libraries with
 
 ```
 #!shell
 
 pip install pyserial pyqtgraph
 ```
+
+### Examples ###
