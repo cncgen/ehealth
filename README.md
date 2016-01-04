@@ -39,7 +39,7 @@ sudo apt-get install python python-pip python-serial numpy python-qt4
 
 sudo pip install pyqtgraph
 ```
-* To develop the GUI you myust to install qt4-Designer
+* To develop the GUI you must to install qt4-Designer
 
 ```
 #!shell
