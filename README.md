@@ -81,7 +81,7 @@ The application running show this interface
 
 ![eHealth.png](https://bitbucket.org/repo/LLq89d/images/2219354141-eHealth.png)
 
-The buttons Star and Stop control the process of collecting data. To store the data the check box "Export to CSV" must be on. If required, the data can be tagged using the parameter "Session Name".
+The buttons Start and Stop control the process of collecting data. To store the data the check box "Export to CSV" must be on. If required, the data can be tagged using the parameter "Session Name".
 
 All the data collected is saved in the folder data.
 
