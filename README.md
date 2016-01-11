@@ -1,6 +1,6 @@
 # eHealth #
 
-A set of Python applications to capture, real-time graph and process the data captured by the eHealth platform developed by Cooking-Hacks.
+A set of Python applications to capture, real-time graph and process the data captured by the eHealth platform developed by Cooking-Hacks. The eHealth platform is an Arduino based shield.
 
 The current development only consider the ECG and GSR signals and is based on the [RTGraph library](https://github.com/ssepulveda/RTGraph).
 
@@ -24,6 +24,8 @@ The applications include tools for post processing the data.
 
 
 ## Ubuntu / Debian Installation ##
+
+* Install the Arduino platform and load the sketch (Arduino folder)
 
 * Install the basic dependences using 
 
