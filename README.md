@@ -25,7 +25,7 @@ The applications include tools for post processing the data.
 
 ## Ubuntu / Debian Installation ##
 
-* Install the Arduino platform and load the sketch (Arduino folder)
+* Install the Arduino platform and load the sketch (see arduino folder)
 
 * Install the basic dependences using 
 
@@ -50,6 +50,7 @@ sudo apt-get install pyqt4-dev-tools qt4-designer
 ```
 
 ### Mac OS X Installation ###
+* Install the Arduino platform and load the sketch (see arduino folder)
 * Install [Anaconda Scientific Python Distribution](https://store.continuum.io/cshop/anaconda/) that comes with all the libraries
 * You probably need to install missing libraries with
 
